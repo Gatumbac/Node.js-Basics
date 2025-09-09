@@ -8,7 +8,7 @@ const requestHandler = (req, res) => {
     if (url === '/') {
         res.write('<html>');
         res.write('<head><title>Enter a message</title></head>');
-        res.write('<body><form action="/message" method="POST"><input type="text" name="name"><input type="submit" value=Enviar></form></body>');
+        res.write('<body><form action="/message" method="POST"><input type="text" name="name"><input type="submit" value=Submit></form></body>');
         res.write('</html>');
         return res.end();
     }
